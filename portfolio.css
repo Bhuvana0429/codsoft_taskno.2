@@ -1,0 +1,244 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  background-color: #3c7b82;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 10px 0;
+}
+
+.navbar {
+
+  position: relative; 
+  z-index: 10;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.logo a {
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff; 
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #120839;
+}
+.home {
+  position: relative;
+  height: 100vh;
+  overflow: hidden; 
+}
+
+.background-image {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  z-index: -1; 
+}
+
+.background-image img {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover;
+}
+
+.text-content {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  text-align: left;
+  font-size: x-large;
+  right: -150px;
+  top: 50%; 
+  transform: translateY(-50%);
+}
+.btn {
+  padding: 10px 20px;
+  background-color:#3c7b82;;
+  color: rgb(24, 22, 22);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ff4500;
+}
+
+.about {
+  position: relative;
+  background-image: url(https://img.freepik.com/free-photo/plain-smooth-green-wall-texture_53876-129746.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1726963200&semt=ais_hybrid);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #ffffff;
+  padding: 50px 10px;
+  margin-top: 0px;
+  padding-top: 50px; 
+
+}
+
+.about-content {
+  position: relative;
+  z-index: 1;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: #3c7b82;;
+  color: rgb(24, 22, 22);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: white;
+}
+
+.portfolio {
+  background-image: url(https://img.freepik.com/free-photo/plain-smooth-green-wall-texture_53876-129746.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1726963200&semt=ais_hybrid);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 40px 10px;
+  background-color: #333;
+  color: #fff;
+  text-align: left;
+  
+}
+
+.portfolio-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.personal-skills,
+.technical-skills {
+  flex: 1;
+}
+
+.skill-slider {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.skill {
+  text-align: left;
+}
+
+.bar {
+  height: 10px;
+  background-color: #f6f8fb;
+  border-radius: 5px;
+}
+
+.certifications {
+  padding: 20px;
+}
+
+.certification-boxes {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.certification-box {
+  background-color: #3c7b82;
+  padding: 15px;
+  border-radius: 8px;
+  flex: 1; 
+  text-align: center;
+}
+
+.contact {
+  background-image: url(https://img.freepik.com/free-photo/plain-smooth-green-wall-texture_53876-129746.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1726963200&semt=ais_hybrid);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 550px;;
+  padding: 10em;
+  padding-top: 200px;
+  background-color:black;
+  color: #fff;
+  text-align: center;
+
+}
+
+.contact form {
+  padding: 0em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact input, .contact textarea {
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  max-width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+.contact button {
+  padding: 10px 20px;
+  background-color:  #3c7b82;
+  color: rgb(16, 15, 15);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #f1edec;
+}
